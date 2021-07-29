@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/VI_Assets/header-bg.jpg");
+  background-size: cover;
+  background-repeat: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid yellow;
+}
+#logo {
+  width: 17%;
+  height: 17%;
+  padding: 20px;
+}
+#services {
+  padding: 25px;
+  color: white;
+}
+#portfolio {
+  padding: 25px;
+  color: white;
+}
+#about {
+  padding: 25px;
+  color: white;
+}
+#team {
+  padding: 25px;
+  color: white;
+}
+#contact {
+  padding: 25px;
+  color: white;
+}
+.container {
+  border: 1px solid black;
+  height: 273px;
+  width: 100vw;
+  padding-top: 20%;
+}
+.subheading {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+.mastheading {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  opacity: 60%;
+}
